@@ -9,17 +9,31 @@ Le projet s'appuie sur un stack technologique moderne comprenant Python comme la
 
 ## Workflow
 
-1. **Enregistrement de la conversation**  
-   La conversation entre le patient et le praticien est enregistrée sous forme de fichier audio.
+<div style="display: flex; justify-content: flex-start; align-items: flex-start; gap: 15px;">
 
-2. **Téléchargement sur AWS S3**  
-   Le fichier audio est téléchargé sur un bucket S3 pour être traité par les services AWS.
-
-3. **Transcription de la conversation avec AWS Transcribe**  
-   Le fichier audio est transcrit en texte grâce à AWS Transcribe, qui fournit une transcription précise et rapide.
-
-4. **Analyse avec un LLM**  
-   Le texte transcrit est analysé à l'aide des modèles de langage d'OpenAI, en utilisant LangChain pour appliquer un template modifiable. Cela permet de générer un résumé structuré ou un dictionnaire adapté aux besoins spécifiques.
+<div style="width: 15%;">
+  
+```mermaid
+graph TD
+   A[🎙️ Audio] --> B[☁️ AWS S3] --> C[📝 Transcription] --> D[🤖 Analyse LLM] --> E[📄 Résumé structuré]
+```
+</div>
+<div style="width: 50%;">
+  <ol>
+    <li><strong>Enregistrement de la conversation</strong><br>
+        La conversation entre le patient et le praticien est enregistrée sous forme de fichier audio.
+    </li>
+    <li><strong>Téléchargement sur AWS S3</strong><br>
+        Le fichier audio est téléchargé sur un bucket S3 pour être traité par les services AWS.
+    </li>
+    <li><strong>Transcription de la conversation avec AWS Transcribe</strong><br>
+        Le fichier audio est transcrit en texte grâce à AWS Transcribe, qui fournit une transcription précise et rapide.
+    </li>
+    <li><strong>Analyse avec un LLM</strong><br>
+        Le texte transcrit est analysé à l'aide des modèles de langage d'OpenAI, en utilisant LangChain pour appliquer un template modifiable. Cela permet de générer un résumé structuré ou un dictionnaire adapté aux besoins spécifiques.
+    </li>
+  </ol>
+</div></div>
 
 ## Structure du projet
 
