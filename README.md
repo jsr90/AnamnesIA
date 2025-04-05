@@ -10,13 +10,16 @@ Le projet s'appuie sur un stack technologique moderne comprenant Python comme la
 ## Workflow
 
 1. **Enregistrement de la conversation**  
-   La conversation entre le patient et le praticien est enregistrée.
+   La conversation entre le patient et le praticien est enregistrée sous forme de fichier audio.
 
-2. **Transcription de la conversation avec AWS Transcribe**  
-   L'enregistrement audio est envoyé à AWS Transcribe pour être converti en texte.
+2. **Téléchargement sur AWS S3**  
+   Le fichier audio est téléchargé sur un bucket S3 pour être traité par les services AWS.
 
-3. **Analyse avec un LLM**  
-   Le texte transcrit est analysé à l'aide des modèles de langage d'OpenAI, en utilisant LangChain pour appliquer un template modifiable. Cela permet de générer un dictionnaire ou un résumé structuré selon les besoins.
+3. **Transcription de la conversation avec AWS Transcribe**  
+   Le fichier audio est transcrit en texte grâce à AWS Transcribe, qui fournit une transcription précise et rapide.
+
+4. **Analyse avec un LLM**  
+   Le texte transcrit est analysé à l'aide des modèles de langage d'OpenAI, en utilisant LangChain pour appliquer un template modifiable. Cela permet de générer un résumé structuré ou un dictionnaire adapté aux besoins spécifiques.
 
 ## Structure du projet
 
