@@ -1,0 +1,19 @@
+[Début de la transcription]
+Kiné : Bonjour, comment puis-je vous aider aujourd'hui ?
+Patient : Bonjour, j'ai une douleur au niveau du genou droit. Cela a commencé après un entraînement de foot il y a une semaine. C'est surtout quand je monte les escaliers que ça fait mal.
+Kiné : D'accord. Pouvez-vous me décrire la douleur un peu plus précisément ? C'est plutôt aiguë ou lancinante ?
+Patient : C'est plutôt aiguë, localisée à l'avant du genou. C'est assez douloureux, surtout lorsque je fais des mouvements de flexion.
+Kiné : Je vois. Et avez-vous remarqué d'autres symptômes, comme un gonflement ou des craquements ?
+Patient : Oui, il y a un léger gonflement, mais je ne remarque pas de craquements. Cela a tendance à se calmer quand je repose mon genou.
+Kiné : Très bien. Depuis combien de temps avez-vous ce gonflement ?
+Patient : Cela a commencé en même temps que la douleur, il y a environ une semaine.
+Kiné : Est-ce que des positions ou des mouvements aggravent la douleur ?
+Patient : Oui, quand je suis debout longtemps ou que je fais du sport, ça devient plus intense.
+Kiné : Très bien, et quel est votre niveau d'activité physique en général ?
+Patient : Je suis assez actif. Je joue au foot régulièrement et je vais à la salle de sport deux à trois fois par semaine.
+Kiné : D'accord, et votre travail, est-ce qu'il exige de rester longtemps dans une position particulière ?
+Patient : Non, je travaille en tant que développeur informatique, donc je suis assis devant un écran pendant de longues heures.
+Kiné : Je comprends. Vous avez des antécédents de problèmes articulaires ou musculaires ?
+Patient : Non, à part une ancienne entorse à la cheville il y a quelques années, rien d'autre.
+Kiné : Merci pour ces informations. Je vais examiner votre genou et déterminer le traitement adapté. En attendant, il serait bon de limiter les efforts physiques intenses.
+[Fin de la transcription]

@@ -1,0 +1,23 @@
+À partir de cette transcription de bilan :
+
+{transcription}
+
+Génère un résumé structuré en format JSON avec les clés suivantes, qui sont obligatoires :
+- `Motif de consultation` : Décris le motif principal de la consultation, en incluant la raison de la douleur ou du malaise.
+- `Signes et symptômes` : Détaille les signes et symptômes rapportés par le patient, en incluant la durée et les facteurs déclenchants, le cas échéant.
+
+Si des informations supplémentaires pertinentes apparaissent dans la conversation, ajoute-les librement sous forme de nouvelles clés. Par exemple :
+- `Mode de vie` : Description du mode de vie du patient (sédentaire, actif, sportif, etc.).
+- `Type de travail` : Type de travail du patient (assis, actif, sédentaire, etc.).
+- `Situation socio-économique` : Informations sur la situation socio-économique du patient, si cela est abordé.
+
+Voici un exemple de format attendu :
+{{
+    "Motif de consultation": "Douleur au dos après un effort physique intense",
+    "Signes et symptômes": "Douleur aiguë et localisée dans le bas du dos depuis 3 jours qui s'aggrave en position assise et soulage en s'allongeant",
+    "Mode de vie": "Sédentaire, pratique occasionnelle de la marche",
+    "Type de travail": "Travail de bureau, assis toute la journée",
+    "Situation socio-économique": "Stabilité professionnelle, vit en couple avec deux enfants"
+}}
+
+La sortie doit être exclusivement au format JSON, sans texte additionnel ni commentaire. Utilise un langage médical professionnel. Sois concis.

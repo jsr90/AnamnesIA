@@ -1,0 +1,6 @@
+sounddevice
+keyboard
+numpy
+boto3
+openai
+langchain
